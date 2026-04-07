@@ -23,4 +23,4 @@ Dividi o trabalho em três passos principais (cada um em um notebook):
 ## Automação
 Para fechar o projeto, criei um *Workflow* (Job) no Databricks. Ele serve para rodar os três códigos automaticamente, na ordem certa (Bronze > Silver > Gold), todos os dias no horário agendado. 
 
-O arquivo `.yaml` com essa configuração e um print mostrando que a execução funcionou certinho estão disponíveis aqui nos arquivos do repositório!
+O print do arquivo `.yaml` com essa configuração e um print mostrando que a execução funcionou certinho estão disponíveis aqui nos arquivos do repositório!
