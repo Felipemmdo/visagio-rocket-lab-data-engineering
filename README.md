@@ -21,6 +21,6 @@ Dividi o trabalho em três passos principais (cada um em um notebook):
 3. **Camada Gold (Dados Prontos para o Negócio):** Com os dados limpinhos da camada anterior, criei as tabelas finais focadas em responder às perguntas da empresa. Fiz uma tabela com a visão comercial (receita em real e dólar, ticket médio, produtos mais vendidos) e outra com a visão de qualidade (satisfação dos clientes e avaliação dos vendedores).
 
 ## Automação
-Para fechar o projeto, criei um *Workflow* (Job) no Databricks. Ele serve para rodar os três códigos automaticamente, na ordem certa (Bronze > Silver > Gold), todos os dias no horário agendado. 
+Para fechar o projeto, criei um Workflow (Job) no Databricks. Ele serve para rodar os três códigos automaticamente, na ordem certa (Bronze > Silver > Gold), todos os dias no horário agendado. 
 
 O print do arquivo `.yaml` com essa configuração e um print mostrando que a execução funcionou certinho estão disponíveis aqui nos arquivos do repositório!
